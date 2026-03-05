@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m http.server 8080)",
+      "Bash(grep -rn \"Nao\\\\|Pla\" /c/Users/user/asiarelax/*.html)",
+      "Bash(test -f /c/Users/user/asiarelax/robots.txt)",
+      "Bash(test -f /c/Users/user/asiarelax/sitemap.xml)"
+    ]
+  }
+}

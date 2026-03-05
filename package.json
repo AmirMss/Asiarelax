@@ -1,0 +1,16 @@
+{
+  "name": "asia-relaxation",
+  "version": "1.0.0",
+  "description": "Site vitrine Asia Relaxation – Strasbourg",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "testMatch": ["**/js/*.test.js"]
+  }
+}
